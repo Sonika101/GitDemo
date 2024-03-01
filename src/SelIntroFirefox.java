@@ -7,8 +7,11 @@ public class SelIntroFirefox {
 		// TODO Auto-generated method stub
 		
 		WebDriver driver=new FirefoxDriver();
-		driver.get("https:/);
+		driver.get("https://www.google.co.in/");
+		System.out.println("Hey I am editing the firefox file of the gitstuff");
+		driver.close();
 
 	}
 
 }
+
