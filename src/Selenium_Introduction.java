@@ -17,6 +17,8 @@ public class Selenium_Introduction {
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getPageSource());
+		System.out.println("Hello I am learning git");
+		System.out.println("hey wow that is interesting");
 		driver.close();//close only the current window opened
 		//driver.quit();//close all the associated windows also
 	}
